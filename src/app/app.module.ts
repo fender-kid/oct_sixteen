@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BobComponent } from './about/bob/bob.component';
 import { SusanComponent } from './about/susan/susan.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SusanComponent } from './about/susan/susan.component';
     ContactComponent,
     BobComponent,
     SusanComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
